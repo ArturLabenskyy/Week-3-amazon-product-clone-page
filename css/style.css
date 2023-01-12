@@ -238,12 +238,15 @@ body {
     border: #D5D9D9 1px solid;
     border-radius: .5rem;
     margin: .5rem .5rem;
+    text-align: center;
 }
 
 .main-right-links {
+    color: #4A3B2F;
     margin: auto auto;
     padding: auto 0;
     text-align: center;
+    text-decoration: none;
     font-size: .8rem;
     height: 2rem;
     width: 80%;
@@ -266,3 +269,34 @@ body {
     background: #EDEEF1;
     border: #232F3E 1px solid;
 }
+
+h4 {
+    border-bottom: #D5D9D9 1px solid;
+    padding-bottom: .3rem;
+}
+
+#accessory {
+    margin: 0 .2rem;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #409FBD;
+}
+
+.main-right-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+#yellow-cart {
+    background: #FFD814;
+    text-decoration: none;
+    height: 2rem;
+    width: 7rem;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
