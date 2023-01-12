@@ -11,7 +11,7 @@
 }
 
 body {
-    background: #F2F2F2;
+    background: #FFFFFF;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -157,6 +157,7 @@ body {
 
 
 .product {
+    display: flex;
     border: 2px solid black;
     height: 30rem;
 }
@@ -164,4 +165,25 @@ body {
 .bott-part  {
     border: 2px solid black;
     height: 15rem;
+}
+
+.main-left-side {
+    display:flex;
+    width: 17rem;
+    height: 100%;
+}
+.small-images {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+    
+
+
+#small-images {
+    
+    height: 4rem;
+    width: 2.5rem;
 }
