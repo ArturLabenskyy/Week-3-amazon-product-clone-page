@@ -158,6 +158,7 @@ body {
 
 .product {
     display: flex;
+    padding: 0 1rem;
     border: 2px solid black;
     height: 30rem;
 }
@@ -170,7 +171,6 @@ body {
 .main-left-side {
     display:flex;
     width: 17rem;
-    height: 100%;
 }
 .small-images {
 
@@ -179,11 +179,24 @@ body {
     flex-direction: column;
 
 }
+
+.small-images img {
+    width: 100%;
+    height: 100;
+}
     
 
 
 #small-images {
-    
+    position: relative;
+    border: #928D8A 1px solid;
+    margin: 1rem 0;
     height: 4rem;
     width: 2.5rem;
+    overflow: hidden;
 }
+
+
+/* #small-images:hover {
+
+} */
