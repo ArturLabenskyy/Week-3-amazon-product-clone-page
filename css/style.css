@@ -69,9 +69,9 @@ body {
 
 
 .chart {
-    background: url('../assets/imgs/amazon_sprites.png') no-repeat -71px -306px;
+    background: url('../assets/imgs/amazon_sprites.png') no-repeat -218px -337px;
 	width: 41px;
-	height: 29px;
+	height: 28px;
 }
 
 #small-text {
@@ -126,7 +126,7 @@ body {
     padding: 0 .4rem;
 }
 
-
+/* ----------------MAIN part of site ------------- */
 .main {
     margin: 0 auto;
     width: 70%;
@@ -159,7 +159,7 @@ body {
 .product {
     display: flex;
     padding: 0 1rem;
-    border: 2px solid black;
+    border-bottom: #928D8A 1px dotted;
     height: 30rem;
 }
 
@@ -170,7 +170,7 @@ body {
 
 .main-left-side {
     display:flex;
-    width: 17rem;
+    width: 30%;
 }
 .small-images {
 
@@ -200,3 +200,40 @@ body {
 /* #small-images:hover {
 
 } */
+
+.center-description {
+    height: 100%;
+    width: 45%;
+    text-align: left;
+    padding-left: .5rem;
+}
+
+#rating-stars {
+    background: url('../assets/imgs/sprites.png') no-repeat -205px -398px;
+	width: 94px;
+	height: 17px;
+}
+
+#rating-number {
+    padding-left: 60%;
+}
+
+.dotted-border {
+    height: .3rem;
+    border-bottom: #928D8A 1px dotted;
+}
+
+.main-right-side {
+    display: flex;
+    flex-direction:column;
+    width: 25%;
+    height: 100%;
+}
+
+.box {
+    width: 100%;
+    height: 40%;
+    border: #928D8A 1px solid;
+    border-radius: .5rem;
+    margin: .5rem .5rem;
+}
