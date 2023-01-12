@@ -141,9 +141,20 @@ body {
 
 
 .deep-categories {
-    border: 2px solid black;
     height: 2rem;
 }
+
+.deep-categories a {
+    padding: 0 .2rem;
+    color: #928D8A;
+    font-size: .8rem;
+    text-decoration: none;
+}
+
+.deep-categories a:hover {
+    text-decoration: underline #928D8A 1px;
+}
+
 
 .product {
     border: 2px solid black;
